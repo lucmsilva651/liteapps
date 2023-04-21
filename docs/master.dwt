@@ -25,7 +25,7 @@
 	<div id="navigation">
 		<ul>
 			<li style="height: 27px"><a href="index.html">Home</a></li>
-			<li><a href="photo_gallery/default.html">All apps</a></li>
+			<li><a href="apps/index.html">All apps</a></li>
 			<li><a href="links/index.html">Links</a></li>
 		</ul>
 	</div>
