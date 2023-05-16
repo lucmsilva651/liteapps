@@ -17,21 +17,17 @@
 	<!-- Begin Masthead -->
 	<div id="masthead">
 		<h1><a href="#">lucmsilva - Lite Apps</a></h1>
-		<h3>A variety of lightweight Android apps, targeting performance-limited 
-		devices.</h3>
+		<h3>Lightweight Android apps targeting performance-limited devices.</h3>
 	</div>
 	<!-- End Masthead -->
 	<!-- Begin Navigation -->
 	<div id="navigation">
 		<ul>
-			<li style="height: 27px"><a href="index.html">Home</a></li>
+			<li style="height: 27px"><a href="index.html">Home page</a></li>
 			<li>
 			<a href="https://github.com/lucmsilva651/liteapps/tree/main/packages">
 			All apps (GitHub Folder)</a></li>
 			<li><a href="http://t.me/liteappschannel">Telegram Channel</a></li>
-			<li><a href="http://youtu.be/Ehto1rqNY6k">Tutorial: How to download 
-			apps</a></li>
-			<li></li>
 		</ul>
 	</div>
 	<!-- End Navigation -->
@@ -52,7 +48,7 @@
 				<p>Copyright &copy; Lucas Gabriel (lucmsilva). All Rights Reserved.</p>
 			</div>
 			<p><a href="index.html">Home</a> | 
-			<a href="photo_gallery/default.html">All apps</a> |
+			<a href="https://github.com/lucmsilva651/liteapps/tree/main/packages">All apps</a> |
 			<a href="http://t.me/liteappschannel">Telegram Channel</a></p>
 		</div>
 		<!-- End Footer --></div>
