@@ -15,7 +15,7 @@
 <script type="text/javascript">
 	var userAgent = navigator.userAgent.toLowerCase();
 	var devices = new Array('nokia','iphone','blackberry','sony','lg', 'htc_tattoo','samsung','symbian','SymbianOS','elaine','palm','series60','windows ce','android','obigo','netfront','openwave','mobilexplorer','operamini');
-	var url_redirect = 'down.htm';
+	var url_redirect = 'mobile.htm';
 	function mobiDetect(userAgent, devices) {
 		for(var i = 0; i < devices.length; i++) {
 			if (userAgent.search(devices[i]) > 0) {
