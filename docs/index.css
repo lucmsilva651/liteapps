@@ -4,6 +4,9 @@ body{
 	color: #ffffff;
 	font-family: Ubuntu, sans-serif;
 }
+a{
+	color: #8be9fd
+}
 @font-face {
 	font-family: 'Ubuntu';
 	src: url('fonts/Ubuntu-L.ttf') format('truetype'), url('fonts/Ubuntu-LI.ttf') format('truetype'), url('fonts/Ubuntu-Th.ttf') format('truetype'), url('fonts/Ubuntu-R.ttf') format('truetype'), url('fonts/Ubuntu-RI.ttf') format('truetype'), url('fonts/Ubuntu-B.ttf') format('truetype'), url('fonts/Ubuntu-BI.ttf') format('truetype'), url('fonts/Ubuntu-C.ttf') format('truetype'), url('fonts/Ubuntu-M.ttf') format('truetype'), url('fonts/Ubuntu-MI.ttf') format('truetype'), url('fonts/UbuntuMono-B.ttf') format('truetype'), url('fonts/UbuntuMono-BI.ttf') format('truetype'), url('fonts/UbuntuMono-R.ttf') format('truetype'), url('fonts/UbuntuMono-RI.ttf') format('truetype');
