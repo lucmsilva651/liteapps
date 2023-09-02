@@ -2,27 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>lucmsilva - Lite Apps</title>
     <style id="theme-styles"></style>
-    <script src="https://lucmsilva.vercel.app/scripts/changeTheme.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://lucmsilva.vercel.app/styles/style.css">
+    <link rel="stylesheet" href="https://lucmsilva.vercel.app/styles/scrollbar.css">
     <link rel="shortcut icon" href="https://lucmsilva.vercel.app/files/favicon.ico" type="image/x-icon">
 </head>
 <body>
 	<center>
         <header>
-            <div class="topBarFrame">
-                <a onclick="location='../'"><button>Home</button></a> <a onclick="location='../projects/'"><button>My projects</button></a> <a onclick="location='../links'"><button>My social media</button></a>
-                <hr>
+            <div class="container">
+                <button class="button" onclick="location='//lucmsilva.vercel.app'">
+                    <i class="material-icons">home</i>
+                    <a>Página inicial</a>
+                </button>
+                <button class="button" onclick="location='//lucmsilva.vercel.app/projects/'">
+                    <i class="material-icons">info</i>
+                    <a>Meus projetos</a>
+                </button>
+                <button class="button" onclick="location='//lucmsilva.vercel.app/links'">
+                    <i class="material-icons">public</i>
+                    <a onclick="location='links/'">Redes sociais</a>
+                </button>
             </div>
+            <hr>
         </header>
-        <div class="mainName">
+        <div class="main-content">
 			<h1>Lite Apps Repo</h1>
 			<p>Welcome! Here you will find a variety of lightweight applications for Android, focusing on performance-limited devices. For example: If you have a J1 Mini or even a Moto C lying around, these apps are perfect for these devices. All are very well optimized, lightweight to download and install, and above all, SAFE. Go to the All apps section to choose and download one of them (or all of them as well). Or you can enter in our Telegram Channel for latest updates about new Lite Apps.</h3>
 			<br>
 			<p>See our all apps and download links below:</p>
-			<div class="buttonFrame">
+			<div class="button-content">
 				<a onclick="location='https://telegram.me/s/browzbrowser'"><button>Browz Browser <i>(by lucmsilva)</button></i></a>
 				<a onclick="location='packages/Calendar_Lite/CalendarLite_1.0.apk'"><button>Calendar Lite <i>(by DaviTudo)</button></i></a>
 				<a onclick="location='packages/Deezer_Lite/DeezerLite_1.0.apk'"><button>Deezer Lite <i>(by DaviTudo)</button></i></a>
@@ -42,12 +57,9 @@
 			</div>
 		</div>
 		<footer>
-			<div class="downBarFrame">
+			<div class="footer-content">
 				<hr>
 				<p>2023 - Lucas Gabriel (lucmsilva). All rights reserved.</p>
-				<div class="downBarLinksFrame">
-                    <p><a onclick="location='https://www.youtube.com/c/lucmsilva651'">YouTube</a> | <a onclick="location='https://fb.me/lucmsilva'">Facebook</a> | <a onclick="location='https://telegram.me/lucmsilva'">Telegram</a></p>
-                </div>
 			</div>
 		</footer>
 </body>
